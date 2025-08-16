@@ -1,0 +1,1 @@
+# nixCats Neovim Configurations
