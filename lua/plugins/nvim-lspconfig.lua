@@ -18,6 +18,7 @@ local servers = {
     -- See options for basedpyright
     ruff = {},
     rust_analyzer = {},
+    texlab = {},
 }
 
 return {
