@@ -36,6 +36,8 @@
         # Nix
         alejandra
         nixd
+        # LaTeX
+        texlab
       ];
 
       startupPlugins.general = with pkgs.vimPlugins; [
