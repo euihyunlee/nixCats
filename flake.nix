@@ -37,6 +37,7 @@
         alejandra
         nixd
         # LaTeX
+        tex-fmt
         texlab
       ];
 

@@ -18,6 +18,7 @@ return {
                 lua = { "stylua" },
                 nix = { "alejandra" },
                 rust = { "rustfmt" },
+                tex = { "tex-fmt" },
             },
         })
     end,
