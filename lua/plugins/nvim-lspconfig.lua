@@ -19,6 +19,7 @@ local servers = {
     ruff = {},
     rust_analyzer = {},
     texlab = {},
+    ty = {},
 }
 
 return {
