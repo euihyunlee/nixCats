@@ -19,6 +19,9 @@ return {
                 nix = { "alejandra" },
                 rust = { "rustfmt" },
                 tex = { "tex-fmt" },
+                javascript = { "prettier" },
+                typescript = { "prettier" },
+                svelte = { "prettier" },
             },
         })
     end,

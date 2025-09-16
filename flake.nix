@@ -39,6 +39,9 @@
         # LaTeX
         tex-fmt
         texlab
+        # TypeScript
+        typescript-language-server
+        svelte-language-server
       ];
 
       startupPlugins.general = with pkgs.vimPlugins; [

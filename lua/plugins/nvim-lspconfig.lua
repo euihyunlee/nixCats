@@ -20,6 +20,9 @@ local servers = {
     rust_analyzer = {},
     texlab = {},
     ty = {},
+    ts_ls = {},
+    svelte = {},
+    eslint = {},
 }
 
 return {
