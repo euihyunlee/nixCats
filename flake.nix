@@ -30,15 +30,19 @@
       lspsAndRuntimeDeps.general = with pkgs; [
         fd
         ripgrep
+
         # Lua
         lua-language-server
         stylua
+
         # Nix
         alejandra
         nixd
+
         # LaTeX
         tex-fmt
         texlab
+
         # TypeScript
         typescript-language-server
         svelte-language-server
@@ -60,17 +64,42 @@
         (nvim-treesitter.withPlugins (
           plugins:
             with plugins; [
+              bash
               c
+              c_sharp
+              cmake
               cpp
+              css
+              cuda
+              dockerfile
               elixir
+              erlang
+              gleam
+              go
+              heex
+              html
+              javascript
+              json
               lua
+              make
               markdown
               markdown_inline
+              meson
+              ninja
               nix
+              python
               query
               rust
+              scss
+              sql
+              svelte
+              typescript
               vim
               vimdoc
+              wgsl
+              xml
+              yaml
+              zig
             ]
         ))
         nvim-web-devicons
